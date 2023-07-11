@@ -3,7 +3,7 @@ Implementação do padrão Composite em Java.
 
 # Problema
 
-![UML](https://a.imagem.app/bFDH91.png)
+![UML](https://a.imagem.app/bFDYAr.png)
 
 Implemente o código do diagrama UML. O uso das classes deverá ser demonstrado
 na sua função main de uma Classe Principal, cujo conteúdo está na página seguinte (você
