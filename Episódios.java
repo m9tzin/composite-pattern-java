@@ -37,8 +37,8 @@ public class Episódios implements Video {
 	@Override
 	public int getDuração() {
 		int tot=0;
-		for (Video video : this.videos) {
-				tot += video.getDuração();
+			for (Video video : this.videos) {
+			tot += video.getDuração();
 			}
 		
 		return tot;
