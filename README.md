@@ -2,7 +2,10 @@
 Implementação do padrão Composite em Java.
 
 # Problema
-Implemente o código do diagrama da Questão 2. O uso das classes deverá ser demonstrado
+
+![UML](https://a.imagem.app/bFDH91.png)
+
+Implemente o código do diagrama UML. O uso das classes deverá ser demonstrado
 na sua função main de uma Classe Principal, cujo conteúdo está na página seguinte (você
 pode adaptar o conteúdo das strings ou números, se desejar).
 
