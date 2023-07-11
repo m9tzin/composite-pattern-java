@@ -8,24 +8,30 @@ pode adaptar o conteúdo das strings ou números, se desejar).
 
 # Alguns requisitos:
 ● Devem ser implementados os getters e setters necessários, mesmo que não estejam
-listados no diagrama. Fique atento aos atributos private!;
+listados no diagrama. Fique atento aos atributos private!
+
 ● O construtor de Episódio deve receber nome, duração (em minutos) e infantil (um
 atributo booleano que diz se o conteúdo do episódio é voltado para o público infantil ou
-não). O construtor de Episódios deve receber somente o nome;
+não). O construtor de Episódios deve receber somente o nome
+
 ● Para o método reproduzir da classe Episódio, basta exibir no terminal uma
 informação como "Reproduzindo o episódio X", onde X é o nome do Vídeo em
 questão.
+
 ● O método getDuração da Episódios deve retornar a duração total de todo o
-conteúdo que foi adicionado nela;
+conteúdo que foi adicionado nela
+
 ● O método reproduzir() da Episódios deve reproduzir em sequência o conteúdo
-que foi adicionado nela;
+que foi adicionado nela
+
 ● O método isInfantil() da Episódios deve verificar se há algum conteúdo que não
 é infantil dentro de sua lista de Vídeos. Se houver pelo menos um conteúdo que não é
 infantil, ele retorna false, caso contrário, retorna true.
 
 # input
 
-```
+
+~~~java
 public class Principal {
         public static void main(String[] args) {
 
@@ -63,7 +69,8 @@ System.out.println("Vamos maratonar!");
 série.reproduzir();
 }
 }
-```
+~~~
+
 # output
 
 ```
