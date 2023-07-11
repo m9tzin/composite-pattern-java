@@ -42,12 +42,6 @@ public class Episódio implements Video{
 	}
 
 	public void setInfantil(boolean infantil) {
-		if(this.infantil != true) {
-			System.out.println("Os episódios não são apropriados para crianças!");
-		}
-		else {
-			System.out.println("Os episódios são apropriados para crianças!");
-		}
 		this.infantil = infantil;
 	}
 	
