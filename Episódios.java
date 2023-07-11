@@ -22,7 +22,11 @@ public class Episódios implements Video {
 
 	@Override
 	public boolean isInfantil() {
-		return false;
+		if (video.isIfantil() != false) {
+                System.out.println("O Episódio não pode ser exibido para menores!");
+                return false;
+            	}
+		return true;
 	}
 
 	@Override
